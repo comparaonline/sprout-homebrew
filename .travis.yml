@@ -1,4 +1,6 @@
 language: objective-c
+rvm:
+  - system
 script: 
   - bundle exec foodcritic -f any .
   - bundle exec rspec
